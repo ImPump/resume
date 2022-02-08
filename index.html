@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title> 李晓鹏的响应式个人简历 </title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">小李的简历</a>
+            <!-- 导航菜单 -->
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home-heart'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills " class="nav__link">
+                            <i class='bx bx-book-heart'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-detail'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 主题切换按钮 -->
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">嗨！我是</span>
+                    <h1 class="home__name">李晓鹏</h1>
+                    <h3 class="home__education">正在寻找一份前端开发实习生的工作</h3>
+                    <div class="home__buttons">
+                        <a class="button button--ghost" download="" href="assets/pdf/Ansel-Cv.pdf">
+                            下载我的简历
+                        </a>
+                        <a href="#about" class="button">关于我的信息</a>
+                    </div>
+                </div>
+                <div class="home__handle">
+                    <img src="assets/img/perfil.png" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://github.com/ImPump" class="home__social-link" target="_blank">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="" class="home__social-link" target="_blank">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                    <a href="" class="home__social-link" target="_blank">
+                        <i class='bx bxl-dribbble'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <!-- <i class='bx bx-mouse home__scroll-icon' ></i>
+                     -->
+                    <span class=" home__scroll-name">向下滑动</span>
+                    <i class='bx bx-chevrons-down'></i>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">我的基本情况</span>
+            <h2 class="section__title">关于我的信息</h2>
+
+            <div class="about__container container grid">
+                <!-- <img src="assets/img/perfil.png" alt="" class="about__img"> -->
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">学历</h3>
+                            <span class="about__subtitle">全日制本科（2022届）</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">外语水平</h3>
+                            <span class="about__subtitle">大学四级英语</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-support about__icon'></i>
+                            <h3 class="about__title">前端项目</h3>
+                            <span class="about__subtitle">响应式网页 个人博客</span>
+                            <span class="about__subtitle">后台管理系统</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        我是一名即将在六月份毕业的大四学生，有希望能成为一名前端开发工程师，我熟悉掌握HTML+CSS+JavaScript，并且能用三件套构建简单的网页，同时还学习了前端框架Vue.js,
+                        并使用Vue2制作了一个简单的博客项目。
+                    </p>
+
+                    <a href="#contact" class="button">如何联系我？</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle">我都会哪些？</span>
+            <h2 class="section__title">我掌握的技术</h2>
+
+            <div class="skills__container container grid">
+
+                <div class="skills__content">
+                    <h3 class="skills__title">前端开发</h3>
+
+                    <div class="skills__box">
+                        <!-- 技能树1 -->
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__level">熟练</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__level">熟练</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__level">掌握</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 技能树2 -->
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Vue2/Vue3</h3>
+                                    <span class="skills__level">入门</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">微信小程序</h3>
+                                    <span class="skills__level">入门</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">ElementUI</h3>
+                                    <span class="skills__level">掌握</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">后端开发</h3>
+
+                    <div class="skills__box">
+                        <!-- 技能树1 -->
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Java</h3>
+                                    <span class="skills__level">掌握</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Pyhton</h3>
+                                    <span class="skills__level">掌握</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Node Js</h3>
+                                    <span class="skills__level">掌握</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 技能树2 -->
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">MySQL</h3>
+                                    <span class="skills__level">掌握</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">微信小程序云开发</h3>
+                                    <span class="skills__level">掌握</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Firebase</h3>
+                                    <span class="skills__level">掌握</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SERVICES ===============-->
+        <section class="services section">
+            <span class="section__subtitle">我能做什么？</span>
+            <h2 class="section__title">我可以运用这些技术</h2>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <h3 class="services__title">网页设计与制作</h3>
+                    <span class="services__button">
+                        <i class='bx bx-right-arrow-alt services__icon'></i>查看更多
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+                            <h3 class="services__modal-title">网页设计与制作</h3>
+                            <p class="services__modal-description">
+                                xxxxxxxxxxxxxxxxxxxxxxx
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        xxxxxxxxxxxxxxxxxxxxxxx
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        xxxxxxxxxxxxxxxxxxxxxxx
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        xxxxxxxxxxxxxxxxxxxxxxx
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        xxxxxxxxxxxxxxxxxxxxxxx
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <h3 class="services__title">Vue项目开发</h3>
+                    <span class="services__button">
+                        <i class='bx bx-right-arrow-alt services__icon'></i>查看更多
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+                            <h3 class="services__modal-title">Vue项目开发</h3>
+                            <p class="services__modal-description">
+                                xxxxxxxxxxxxxxxxxxxxxxx
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        xxxxxxxxxxxxxxxxxxxxxxx
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        xxxxxxxxxxxxxxxxxxxxxxx
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        xxxxxxxxxxxxxxxxxxxxxxx
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        xxxxxxxxxxxxxxxxxxxxxxx
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <h3 class="services__title">小程序开发</h3>
+                    <span class="services__button">
+                        <i class='bx bx-right-arrow-alt services__icon'></i>查看更多
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+                            <h3 class="services__modal-title">小程序开发</h3>
+                            <p class="services__modal-description">
+                                我说这是嘛呀xxxxxxxxxxxxxxxxxxxxxxx
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        一个xxxxxxxxxxxxxxxxxxxxxxx
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        两个xxxxxxxxxxxxxxxxxxxxx
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        xxxxxxxxxxxxxxxxxxxxxxx
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        xxxxxxxxxxxxxxxxxxxxxxx
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <span class="section__subtitle">我做过哪些？</span>
+            <h2 class="section__title">我最近的项目</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter="all">全部</span>
+                <span class="work__item" data-filter=".web">网页</span>
+                <span class="work__item" data-filter=".mini">小程序</span>
+                <span class="work__item" data-filter=".admin">后台管理系统</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <img src="assets/img/work1.jpg" alt="" class="work__img">
+                    <h3 class="work__title">网页</h3>
+                    <a href="#" class="work__button">
+                        <i class='bx bx-right-arrow-alt work__icon'></i> 项目演示
+                    </a>
+                </div>
+                <div class="work__card mix mini">
+                    <img src="assets/img/work2.jpg" alt="" class="work__img">
+                    <h3 class="work__title">小程序</h3>
+                    <a href="#" class="work__button">
+                        <i class='bx bx-right-arrow-alt work__icon'></i> 项目演示
+                    </a>
+                </div>
+                <div class="work__card mix mini">
+                    <img src="assets/img/work3.jpg" alt="" class="work__img">
+                    <h3 class="work__title">小程序</h3>
+                    <a href="#" class="work__button">
+                        <i class='bx bx-right-arrow-alt work__icon'></i> 项目演示
+                    </a>
+                </div>
+                <div class="work__card mix web">
+                    <img src="assets/img/work4.jpg" alt="" class="work__img">
+                    <h3 class="work__title">网页</h3>
+                    <a href="#" class="work__button">
+                        <i class='bx bx-right-arrow-alt work__icon'></i> 项目演示
+                    </a>
+                </div>
+                <div class="work__card mix admin">
+                    <img src="assets/img/work5.jpg" alt="" class="work__img">
+                    <h3 class="work__title">后台管理系统</h3>
+                    <a href="#" class="work__button">
+                        <i class='bx bx-right-arrow-alt work__icon'></i> 项目演示
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== TESTIMONIALS ===============-->
+        <section class="testimonial section">
+            <span class="section__subtitle">认识我的人是这么说的</span>
+            <h2 class="section__title">我的评价</h2>
+
+            <div class="testimonial__container container swiper">
+                <div class=" swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial1.png" alt="" class="testimonial__img">
+                        <h3 class="testimonial__name">舍友陈同学</h3>
+                        <p class="testimonial__description">
+                            他是一个XXXXXXXXXXXXXXXXXXXXXXXXXXX
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial2.png" alt="" class="testimonial__img">
+                        <h3 class="testimonial__name">辅导员张老师</h3>
+                        <p class="testimonial__description">
+                            他是一个XXXXXXXXXXXXXXXXXXXXXXXXXXX
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial3.png" alt="" class="testimonial__img">
+                        <h3 class="testimonial__name">同事小林</h3>
+                        <p class="testimonial__description">
+                            他是一个XXXXXXXXXXXXXXXXXXXXXXXXXXX
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle">如何与我联系？</span>
+            <h2 class="section__title">我的联系方式</h2>
+
+            <div class="contact__container container grid">
+                <div class="contactt__content">
+                    <h3 class="contactt__title">与我交流</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-phone-call contact__card-icon'></i>
+                            <h3 class="contact__card-title">电话</h3>
+                            <span class="contact__card-data">123456789</span>
+
+                            <a href="" target="_blank" class="contact__button">
+                                <i class='bx bx-right-arrow-alt contact__button-icon'></i>现在联系
+                            </a>
+                        </div>
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">邮箱</h3>
+                            <span class="contact__card-data">123456789@qq.com</span>
+
+                            <a href="mailto:examplemail@correo.com" target="_blank" class="contact__button">
+                                <i class='bx bx-right-arrow-alt contact__button-icon'></i>现在联系
+                            </a>
+                        </div>
+                        <div class="contact__card">
+                            <i class='bx bxl-whatsapp contact__card-icon'></i>
+                            <h3 class="contact__card-title">微信</h3>
+                            <span class="contact__card-data">ImPump_</span>
+
+                            <a href="" target="_blank" class="contact__button">
+                                <i class='bx bx-right-arrow-alt contact__button-icon'></i>现在联系
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">李晓鹏</h1>
+            <ul class="footer__list">
+                <li>
+                    <a href="#about" class="footer__link">我的信息</a>
+                </li>
+                <li>
+                    <a href="#skills" class="footer__link">我的技能</a>
+                </li>
+                <li>
+                    <a href="#work" class="footer__link">我的项目</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-twitter' ></i>
+                </a>
+            </ul>
+
+            <span class="footer__copy">
+                &#169;ImPump. All rights reserved
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
