@@ -16,16 +16,4 @@
 
 配色: [https://colors.dopely.top/color-pedia](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbkpuUnczQ2w3R1JoMGd1ZUFNN1REaGJkTnVEQXxBQ3Jtc0tuYnVlejdhVjJVNVBVMDBSWjFyZnZReXVYd00ySzhJalhQUWRwRFUzN1l6ay1EcDFacktram5YTmxaUFBPOUxnQ1RUVWRMaFNoZU81WFNUTE5ON3ZPSmtFR2RxSXNqdjRDRGhJMjZ0cGtXSVNWSkY2OA&q=https%3A%2F%2Fcolors.dopely.top%2Fcolor-pedia)
 
-# 项目预览
-## Home
-<img width="189" alt="preview1" src="https://user-images.githubusercontent.com/71574640/152921082-8f8db4e4-536b-467a-a826-5c78a7ce5e52.png">
-## Section2
-<img width="189" alt="preview2" src="https://user-images.githubusercontent.com/71574640/152921089-03d4b341-342b-4da5-b1e5-cb65ed9d8c70.png">
-## Section3
-<img width="189" alt="preview3" src="https://user-images.githubusercontent.com/71574640/152921098-fac089b7-d7e7-4fb6-9b2a-13fe11fd5d3c.png">
-## Section4
-<img width="189" alt="preview4" src="https://user-images.githubusercontent.com/71574640/152921104-64c92543-7d7d-460d-83b4-881ca0643a20.png">
-## Section5
-<img width="189" alt="preview5" src="https://user-images.githubusercontent.com/71574640/152921122-6b270d8a-7a1e-477f-8dc8-75a1d2a246f2.png">
-## footer
-<img width="189" alt="preview6" src="https://user-images.githubusercontent.com/71574640/152921138-d60bdff8-47d2-41da-9502-08c4a0d2f54b.png">
+
