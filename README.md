@@ -43,7 +43,7 @@
 <img width="189" alt="preview5" src="https://user-images.githubusercontent.com/71574640/152921672-3fcbae89-57e5-46ba-a3f8-4b5199f9911d.png">
 
 
-## Hooter
+## Footer
 
 <img width="189" alt="preview6" src="https://user-images.githubusercontent.com/71574640/152921687-077bbf4c-4668-4d5b-b6fc-893af596d99d.png">
 
