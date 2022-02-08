@@ -20,24 +20,30 @@
 
 ## Home
 
-![preview1](D:\Program\responsive-portfolio-website\preview1.png)
+<img width="189" alt="preview1" src="https://user-images.githubusercontent.com/71574640/152921643-23836b92-428f-474b-9b81-5575f4f073ee.png">
+
 
 ## Section1
 
-![preview2](D:\Program\responsive-portfolio-website\preview2.png)
+<img width="189" alt="preview2" src="https://user-images.githubusercontent.com/71574640/152921654-c599dc29-401c-469e-815b-d645756ce24d.png">
+
 
 ## Section2
 
-![preview3](D:\Program\responsive-portfolio-website\preview3.png)
+<img width="189" alt="preview3" src="https://user-images.githubusercontent.com/71574640/152921665-af4b1309-21a8-4971-81e7-c92df5b5cf83.png">
+
 
 ## Section3
 
-![preview4](D:\Program\responsive-portfolio-website\preview4.png)
+<img width="189" alt="preview4" src="https://user-images.githubusercontent.com/71574640/152921668-aae9fb8f-4a96-4748-a84e-18a0ef2de049.png">
+
 
 ## Section4
 
-![preview5](D:\Program\responsive-portfolio-website\preview5.png)
+<img width="189" alt="preview5" src="https://user-images.githubusercontent.com/71574640/152921672-3fcbae89-57e5-46ba-a3f8-4b5199f9911d.png">
+
 
 ## Hooter
 
-![preview6](D:\Program\responsive-portfolio-website\preview6.png)
+<img width="189" alt="preview6" src="https://user-images.githubusercontent.com/71574640/152921687-077bbf4c-4668-4d5b-b6fc-893af596d99d.png">
+
