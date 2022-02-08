@@ -16,4 +16,28 @@
 
 配色: [https://colors.dopely.top/color-pedia](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbkpuUnczQ2w3R1JoMGd1ZUFNN1REaGJkTnVEQXxBQ3Jtc0tuYnVlejdhVjJVNVBVMDBSWjFyZnZReXVYd00ySzhJalhQUWRwRFUzN1l6ay1EcDFacktram5YTmxaUFBPOUxnQ1RUVWRMaFNoZU81WFNUTE5ON3ZPSmtFR2RxSXNqdjRDRGhJMjZ0cGtXSVNWSkY2OA&q=https%3A%2F%2Fcolors.dopely.top%2Fcolor-pedia)
 
+# 项目预览
 
+## Home
+
+![preview1](D:\Program\responsive-portfolio-website\preview1.png)
+
+## Section1
+
+![preview2](D:\Program\responsive-portfolio-website\preview2.png)
+
+## Section2
+
+![preview3](D:\Program\responsive-portfolio-website\preview3.png)
+
+## Section3
+
+![preview4](D:\Program\responsive-portfolio-website\preview4.png)
+
+## Section4
+
+![preview5](D:\Program\responsive-portfolio-website\preview5.png)
+
+## Hooter
+
+![preview6](D:\Program\responsive-portfolio-website\preview6.png)
