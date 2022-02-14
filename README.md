@@ -1,12 +1,9 @@
 # 🔥 响应式个人简历网页
-##  学习链接： [Watch it on youtube](https://youtu.be/oy8dSsK57Ps)
-使用HTML CSS和JavaScript 学习制作的响应式个人简历网页
+使用HTML+CSS+JavaScript构建的响应式网站，使用原生的JavaScript开发，利用动画插件库实现过滤和滑动以及滚动效果，提升交互体验，实现页面根据设备大小自适应，可一键切换暗黑/明亮模式，符合当前页面开发的流行趋势。
 
 图标: [https://boxicons.com/](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbEl6c0VlNU5KNEpDYmpwX2JpTXFNQ2V2cVdGZ3xBQ3Jtc0trTTZNYlptQWNud0d5UFpENnJaRXBGN3RPX0xZa0hsVExKQ1d6R1FpWGFKaVlDVEFYand5SkVaczJGOFlXTUdMV2txZmpXNFBDZlY5ZWlIQkp2MG94NVZBalVMTi1IczduNFc4SUVLc1dSNjlGLVpNYw&q=https%3A%2F%2Fboxicons.com%2F) 
 
 字体: https://www.iconfont.cn/
-
-源文件仓库: [https://github.com/bedimcode/responsi...](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbGJXWF9adWJPcjhYUXp0bkN5VTBnVDVhWkJNZ3xBQ3Jtc0ttV1A0ZUhXLU1QeUluMkFRMHlxdmN1dFBzYllDb0FOMXlQeV8zaERsX1VKNXdsTFVzSngwM3NQMW5sUW80SXNrV3BxSmd5S1VqUTJ4WjBUSWduSU81YTBoMGZXQ3N6U0ljR1RNUjVQN0dvM3lFVTdOWQ&q=https%3A%2F%2Fgithub.com%2Fbedimcode%2Fresponsive-watches-website) 
 
 动画过滤和排序: [https://www.kunkalabs.com/mixitup/](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbWRYdDZJNXF3SkRLN1E4VFBpYTdUQ1lMczk2Z3xBQ3Jtc0trNGl3b1h1SEJMSmZGS3p2WmhqeV9QMDFVX1p3TUVHWkVRSVptSDBmUXFaTFd1Ukw4VGh5eUlfWkdTUEVkRmVVTWtOWmNBSUpTLUMtdVotOXVCS0ktNzJqbm1oLWpLcHdRWjd6UUVFb1YzWU1EUnY3QQ&q=https%3A%2F%2Fwww.kunkalabs.com%2Fmixitup%2F) 
 
